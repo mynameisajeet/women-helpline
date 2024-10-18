@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(11, 3, 45, 1) 100%);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+
+.vertical-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+  width: 80%; /* Adjust width to fit your needs */
+  max-width: 1000px; /* Max width to avoid stretching too much */
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%);
+  text-align: center;
+}
+
+.vertical-card-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.horizontal-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+}
+
+.horizontal-cards-container a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px; /* Fixed size for uniformity */
+  height: 200px; /* Fixed height for uniformity */
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.horizontal-cards-container a:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+  background-color: #f0f0f0;
+}
+
+.horizontal-cards-container img {
+  max-width: 100px; /* Limit image width */
+  max-height: 100px; /* Limit image height */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.horizontal-cards-container p {
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff8080;
+}
+
+.developer-info{
+  background-color: rgb(200,200,0);
+  padding: 2px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 15px;
+margin-top: 10px;
+}
